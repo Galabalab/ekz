@@ -1,0 +1,160 @@
+.Header {
+    padding: 35px;
+    background-color: rgb(241, 222, 194);
+    position: relative;
+}
+
+.logo{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul {
+   padding: 0;
+}
+
+.menu li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu__item li:hover{
+   background-color: white;
+   border-radius: 5px;
+   transition: 0.5s;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.menu{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__item{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+
+.shop-cart{
+    position: absolute;
+    border-radius: 15px;
+    padding: 20px;
+    top: 90px;
+    text-align: center;
+    right: 220px;
+    width: 480px;
+    min-height: 286px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #ffff;
+}
+
+.modal{
+    width: 100%;
+    left: 0;    
+    top: 0;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+}
+
+.close{
+    position: absolute;
+    font-size: 60px;
+    cursor: pointer;
+    right: 0;
+    top: -17px;
+}
+
+.close:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.modal-content-reg{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(241, 222, 194);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.menu__item button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 50px;
+    border: none;
+}
+
+.form input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.form button{
+    border: none;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffff;
+    width: 200px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color: rgb(248, 102, 102);
+    transition: 0.5s;
+}
+
+.modal-content{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(241, 222, 194);
+    text-align: center;
+}
